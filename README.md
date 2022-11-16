@@ -1,6 +1,6 @@
 # Amazon EKS Cluster Template
 
-This repository contains the following files:
+Automate your infrastructure deployment with cloudformation.
 
 - [eks.yml](eks.yml): a CloudFormation template that defines an EKS cluster, including a VPC, the EKS control plane (master nodes) and the EKS worker nodes.
 - [run.sh](up.sh): a Bash script that applies the CloudFormation template to your AWS account and finalises the cluster creation, including `kubectl` configuration.
